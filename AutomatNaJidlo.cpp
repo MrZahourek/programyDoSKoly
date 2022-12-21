@@ -1,5 +1,6 @@
 // Obsah automatu: preclíky (8), bageta - kuře (13), snickers (8), lentilky (8), sandwitch (8), twix (4), kitkat (6)
 
+// Tady jsou knihovny
 #include <iostream>
 #include <windows.h>
 #include <fstream>
