@@ -5,13 +5,13 @@
 #include <windows.h>
 #include <fstream>
 #include <string>
-#include <cstring>
+#include <cstring>//pokud mas sring, tak je cstring useless i guess
 #include <cstdlib>
 #include <ctime>
-#include <stdio.h>
+#include <stdio.h>//pokud mas iostream, tak je to zbytecny
 #include <stdlib.h>
 #include <time.h>
-#include<string.h>
+#include<string.h>//vymaz
 
 using namespace std;
 
@@ -29,6 +29,7 @@ int userInputPaymentMethot;
 int userInputPin;
 
 // Jednotlivé Předměty  cena počet součet
+//nauc se pouzivat structy nebo classy
 int preclikySeznam[3] = { 25 , 0 , 0};
 int snickersSeznam[3] = { 20 };
 int twixSeznam[3] = { 20 };
@@ -38,6 +39,7 @@ int magnesiaSeznam[3] = { 25 };
 int bagetaSeznam[3] = { 80 };
 
 // Funkce pro změnu barvy - zkopírováno ze Stackoverflow
+//a co tam zkopirovano neni?
 string setcolor(unsigned short color) {
     HANDLE hcon = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(hcon, color);
@@ -52,7 +54,7 @@ void BuyItBaby() {
     cout << "\n";
     cout << "Jste si jisti ze si chcete zakoupit " << buyingItem << " " << userInputItemAmmount << " krat? [y/n] ";
     cin >> YesOrNo;
-    if (YesOrNo == 'y') {
+    if (YesOrNo == 'y') {//if..if..if..if.. fucking if _ pouzivej na takovouhle repetetivni praci loopy a classy/structy
         if (buyingItem == "precliky") {
             preclikySeznam[1] = preclikySeznam[1] + userInputItemAmmount;
             preclikySeznam[2] = preclikySeznam[1] * preclikySeznam[0];
