@@ -1,3 +1,3 @@
-# programyDoSKoly 
+#                                                                     programyDoSKoly 
 
-Toto je místo pro ukládání svých souborů do školy - hlavně programování
+                                     Toto je místo pro ukládání svých souborů do školy - hlavně programování
