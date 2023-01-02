@@ -1,0 +1,3 @@
+﻿  CleanBankApp.cpp
+C:\Users\zahou\OneDrive\Plocha\Programing\c++\CleanBankApp\CleanBankApp.cpp(34,16): warning C4102: 'SighInProtocol': unreferenced label
+  CleanBankApp.vcxproj -> C:\Users\zahou\OneDrive\Plocha\Programing\c++\CleanBankApp\x64\Debug\CleanBankApp.exe
