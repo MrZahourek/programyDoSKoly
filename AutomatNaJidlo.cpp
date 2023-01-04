@@ -1,19 +1,12 @@
 // Obsah automatu: preclíky (8), bageta - kuře (13), snickers (8), lentilky (8), sandwitch (8), twix (4), kitkat (6)
 
 // Tady jsou knihovny
-#include <iostream>
-#include <windows.h>
-#include <fstream>
-#include <string>
-#include <cstring>//pokud mas sring, tak je cstring useless i guess
-#include <cstdlib>
-#include <ctime>
-#include <stdio.h>//pokud mas iostream, tak je to zbytecny
-#include <stdlib.h>
-#include <time.h>
-#include<string.h>//vymaz
+#include <iostream>         // input output
+#include <windows.h>        // deklarace pro windows API - příkazy v konzoli
+#include <string>           // dovoluje práci se string
+#include <ctime>            // práce s časem
 
-using namespace std;
+using namespace std;        // Standart commands - používám pro např cout, cin, atd...
 
 // Obecné Proměnné
 string currentItem = "                                           ";
